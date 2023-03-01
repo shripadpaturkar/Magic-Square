@@ -1,0 +1,84 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #EDF1D6;
+}
+
+label {
+    padding: 12px;
+    margin: 40px 8px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+input {
+    padding: 12px 40px;
+    margin: 40px 8px;
+    border: 2px solid #9DC08B;
+    border-radius: 4px;
+}
+
+input:hover{
+    border: 2px solid #40513B;
+}
+
+button {
+    padding: 12px 40px;
+    margin: 40px 8px;
+    background-color: #40513B;
+    border-radius: 4px;
+    color: #EDF1D6;
+    justify-content: center;
+}
+button:hover {
+    background-color: #EDF1D6;
+    color: #40513B;
+  }
+
+td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #40513B;
+    padding: 5px 5px;
+    margin: 8px 8px;
+    text-align: center;
+    box-sizing: content-box;
+    border-radius: 4px;
+    background-color: #9DC08B;
+}
+
+p {
+    font-size: xx-large;
+    color: #9DC08B;
+}
+
+#errorDiv {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #3a3e39;
+    visibility: hidden;
+}
+
+#total {
+    color: #40513B;
+    padding: 12px;
+    margin: 40px 8px;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+
+#input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#output-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
